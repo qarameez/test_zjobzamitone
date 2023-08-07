@@ -4,6 +4,9 @@ import pytest
 from selenium.webdriver import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
+import allure
+import allure_pytest
+
 
 @pytest.fixture
 def setup():

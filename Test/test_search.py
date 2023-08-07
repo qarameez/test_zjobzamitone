@@ -4,6 +4,9 @@ import time
 import pytest
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
+import allure
+import allure_pytest
+
 
 
 class Test_login12():
